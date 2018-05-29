@@ -24,7 +24,7 @@
               enabled: true
 ```
 ###（2）、自定义CachingConnectionFactory，设置连接的相关属性
-```
+```java
     @Bean
     @ConfigurationProperties(prefix = "spring.rabbitmq")
     public CachingConnectionFactory connection(){
